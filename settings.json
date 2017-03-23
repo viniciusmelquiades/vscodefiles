@@ -1,0 +1,36 @@
+// Place your settings in this file to overwrite the default settings
+{
+	"editor.detectIndentation": true,
+	"editor.fontFamily": "Fira Code",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 15,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"editor.glyphMargin": true,
+	"editor.insertSpaces": false,
+	"editor.minimap.enabled": true,
+	"editor.quickSuggestions": true,
+	"editor.renderWhitespace": "boundary",
+	"editor.wordBasedSuggestions": false,
+	"editor.wordWrap": "on",
+	"editor.wrappingIndent": "indent",
+	"files.autoSave": "off",
+	"files.trimTrailingWhitespace": true,
+	"git.autofetch": false,
+	"search.exclude": {
+		"**/bin": true,
+		"**/obj": true,
+		".git": true,
+		"bower_components": true,
+		"node_modules": true,
+		"packages": true
+	},
+	"terminal.external.windowsExec": "powershell.exe",
+	"terminal.integrated.shell.windows": "powershell.exe",
+	"typescript.referencesCodeLens.enabled": true,
+	"vsicons.dontShowNewVersionMessage": true,
+	"window.reopenFolders": "none",
+	"window.zoomLevel": 0,
+	"workbench.welcome.enabled": true,
+	"workbench.iconTheme": "vscode-icons"
+}
