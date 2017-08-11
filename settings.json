@@ -1,5 +1,5 @@
-// Place your settings in this file to overwrite the default settings
 {
+	"docker-explorer.autoRefreshInterval": 0,
 	"editor.detectIndentation": true,
 	"editor.fontFamily": "Fira Code",
 	"editor.fontLigatures": true,
@@ -17,6 +17,30 @@
 	"files.autoSave": "off",
 	"files.trimTrailingWhitespace": true,
 	"git.autofetch": false,
+	"javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+	"javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": false,
+	"mssql.connections": [
+		{
+			"authenticationType": "Integrated",
+			"database": "Admooh",
+			"password": "",
+			"profileName": "adMooH Dev",
+			"server": "(localdb)\\ProjectsV12"
+		},
+		{
+			"applicationName": "vscode-mssql",
+			"authenticationType": "SqlLogin",
+			"connectTimeout": 30,
+			"database": "admooh",
+			"encrypt": true,
+			"password": "",
+			"profileName": "adMooH prod",
+			"savePassword": false,
+			"server": "i-am-groot.database.windows.net",
+			"user": "admooh",
+			"emptyPasswordInput": false
+		}
+	],
 	"search.exclude": {
 		"**/bin": true,
 		"**/obj": true,
@@ -27,10 +51,12 @@
 	},
 	"terminal.external.windowsExec": "powershell.exe",
 	"terminal.integrated.shell.windows": "powershell.exe",
+	"typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": false,
+	"typescript.implementationsCodeLens.enabled": true,
 	"typescript.referencesCodeLens.enabled": true,
+	"typescript.useCodeSnippetsOnMethodSuggest": true,
 	"vsicons.dontShowNewVersionMessage": true,
-	"window.reopenFolders": "none",
+	"window.restoreWindows": "none",
 	"window.zoomLevel": 0,
-	"workbench.welcome.enabled": true,
 	"workbench.iconTheme": "vscode-icons"
 }
