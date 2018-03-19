@@ -1,10 +1,6 @@
 // Place your key bindings in this file to overwrite the defaults
 [
 	{
-		"key": "ctrl+alt+f",
-		"command": "codebing.search"
-	},
-	{
 		"key": "ctrl+enter",
 		"command": "extension.runCurrentStatement",
 		"when": "editorTextFocus && editorLangId == 'sql'"
@@ -26,5 +22,9 @@
 	{
 		"key": "ctrl+k z",
 		"command": "-workbench.action.toggleZenMode"
+	},
+	{
+		"key": "ctrl+shift+s",
+		"command": "workbench.action.files.saveAll"
 	}
 ]

@@ -61,5 +61,26 @@
     "workbench.iconTheme": "vscode-icons",
     "editor.smoothScrolling": true,
     "editor.cursorBlinking": "smooth",
-    "diffEditor.renderSideBySide": false
+    "diffEditor.renderSideBySide": false,
+    "auto-close-tag.activationOnLanguage": [
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescriptreact",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml"
+    ],
+    "workbench.colorTheme": "Monokai",
+    "gitlens.keymap": "alternate",
+    "gitlens.codeLens.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.currentLine.enabled": false
 }
