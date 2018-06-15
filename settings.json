@@ -14,7 +14,7 @@
     "editor.wordBasedSuggestions": false,
     "editor.wordWrap": "on",
     "editor.wrappingIndent": "indent",
-    "files.autoSave": "off",
+    "files.autoSave": "onWindowChange",
     "files.trimTrailingWhitespace": true,
     "git.autofetch": false,
     "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
@@ -82,5 +82,16 @@
     "gitlens.keymap": "alternate",
     "gitlens.codeLens.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
-    "gitlens.currentLine.enabled": false
+    "gitlens.currentLine.enabled": false,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true
 }
